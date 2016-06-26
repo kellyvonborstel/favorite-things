@@ -1,0 +1,34 @@
+/* MODIFIED MEYER RESET */
+
+html, body, div, span,
+h1, h2, p, a, img, ul, li, 
+article, footer, header,
+nav, section {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+
+article, footer, header, nav, section {
+  display: block;
+}
+
+ul {
+  list-style: none;
+}
+
+/*-------------------------------------*/
+/* GLOBAL */
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  font: 400 16px/1.5 Roboto, sans-serif;
+}
