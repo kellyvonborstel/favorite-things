@@ -42,9 +42,9 @@ header {
   line-height: 1.2;
 }
 
-@media screen and (min-width: 400px) {
+@media screen and (min-width: 370px) {
   header {
-    font-size: 2.5rem;
+    font-size: 2.4rem;
   }
 }
 
@@ -58,7 +58,7 @@ header {
 /* NAVIGATION */
 
 .main-nav {
-  margin-bottom: 3rem;
+  margin-bottom: 2.2rem;
   background-color: #3f2c20;
 }
 
@@ -94,6 +94,7 @@ header {
 
 @media screen and (min-width: 600px) {
   .main-nav {
+    margin-bottom: 3rem;
     text-align: center;
     border-bottom: 10px solid #ee5511;
   }
@@ -111,10 +112,38 @@ header {
   }
 }
 
+/*-------------------------------------*/
+/* MAIN CONTENT */
 
+article img {
+  width: 100%;
+  vertical-align: bottom;
+}
 
+.articleText {
+  text-align: left;
+  background-color: #c8d8a0;
+  padding: 1.6rem;
+  margin-bottom: 2.2rem;
+}
 
+.articleText h2 {
+  font-weight: 700;
+  font-size: 1.3rem;
+  color: #c7470e;
+}
 
+.articleText p {
+  color: #3f2c20;
+}
+
+.articleText a {
+  color: #c7470e;
+}
+
+.articleText a:hover {
+  color: #e97e4d;
+}
 
 
 
