@@ -129,7 +129,7 @@ article img {
 
 .articleText h2 {
   font-weight: 700;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   color: #c7470e;
 }
 
@@ -143,6 +143,41 @@ article img {
 
 .articleText a:hover {
   color: #e97e4d;
+}
+
+@media screen and (min-width: 768px) {
+  section {
+    max-width: 740px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  article {
+    clear: both;
+  }
+
+  article img {
+    margin-bottom: 50px;
+    width: 185px;
+    border: 1px solid #fff;
+  }
+
+  .articleText {
+    float: right;
+    margin-top: 28px;
+    background-color: #c8d8a0;
+    padding: 1.4rem 2rem 1.6rem;
+    width: 555px;
+  }
+
+  #house img {
+    float: right;
+    width: 230px;
+  }
+  
+  #house .articleText {
+    width: 510px;
+  }
 }
 
 /*-------------------------------------*/
@@ -164,4 +199,3 @@ footer a {
 footer a:hover {
   color: #f5c0a9;
 }
-
