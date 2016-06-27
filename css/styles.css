@@ -18,10 +18,6 @@ article, footer, header, nav, section {
   display: block;
 }
 
-ul {
-  list-style: none;
-}
-
 /*-------------------------------------*/
 /* GLOBAL */
 
@@ -33,9 +29,74 @@ body {
   font: 400 16px/1.5 Roboto, sans-serif;
 }
 
+/*-------------------------------------*/
+/* HEADER */
+
 header {
-  font-size: 3em;
+  margin: 1.5rem;
+  font-size: 3rem;
   font-weight: 900;
   color: #6b8525;
   text-align: center;
 }
+
+/*-------------------------------------*/
+/* NAVIGATION */
+
+.main-nav {
+  position: relative;
+  width: 100%;
+  height: 70px;
+  border-bottom: 10px solid #ee5511;
+  margin-bottom: 3rem;
+  text-align: center;
+  background-color: #3f2c20;
+}
+
+.main-nav ul {
+  list-style: none;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 750px;
+  position: relative;
+}
+
+.main-nav li {
+  display: inline-block;
+  width: 30%;
+  max-width: 250px;
+  text-align: center;
+}
+
+.main-nav a {
+  font-family: Courgette;
+  letter-spacing: .02em;
+  color: #afaca0;
+  line-height: 62px;
+  text-decoration: none;
+  font-size: 1.1rem;
+}
+
+.main-nav a span {
+  color: #c7470e;
+  font-family: Roboto;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
