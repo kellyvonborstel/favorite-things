@@ -145,15 +145,22 @@ article img {
   color: #e97e4d;
 }
 
+/*-------------------------------------*/
+/* FOOTER */
 
+footer {
+  background-color: #ee5511;
+  color: #f5c0a9;
+  padding: 1.7rem;
+  text-align: center;
+}
 
+footer a {
+  text-decoration: none;
+  color: #fff;
+}
 
-
-
-
-
-
-
-
-
+footer a:hover {
+  color: #f5c0a9;
+}
 
