@@ -37,9 +37,9 @@ header {
   margin-bottom: 1.5rem;
   font-size: 2rem;
   font-weight: 900;
+  line-height: 1.2;
   color: #6b8525;
   text-align: center;
-  line-height: 1.2;
 }
 
 @media screen and (min-width: 370px) {
@@ -63,8 +63,8 @@ header {
 }
 
 .main-nav li {
-  text-align: center;
   padding: 1rem;
+  text-align: center;
   border-bottom: 1px solid #5f4738;
 }
 
@@ -73,19 +73,19 @@ header {
 }
 
 .main-nav a {
-  letter-spacing: .02em;
-  text-decoration: none;
+  font-family: Courgette, serif;
   font-size: 1.1rem;
-  font-family: Courgette;
+  letter-spacing: .02em;
   color: #afaca0;
+  text-decoration: none;
 }
 
 .main-nav a span {
-  color: #c7470e;
-  font-family: Roboto;
-  text-transform: uppercase;
-  font-weight: 700;
+  font-family: Roboto, sans-serif;
   font-size: 1.2rem;
+  font-weight: 700;
+  color: #c7470e;
+  text-transform: uppercase;
 }
 
 .main-nav a span:hover {
@@ -100,15 +100,14 @@ header {
   }
 
   .main-nav ul {
-    margin: 0 auto;
     max-width: 750px;
+    margin: 0 auto;
   }
 
   .main-nav li {
     display: inline-block;
     width: 30%;
     max-width: 250px;
-    border-bottom: 0;
   }
 }
 
@@ -121,15 +120,15 @@ article img {
 }
 
 .articleText {
-  text-align: left;
-  background-color: #c8d8a0;
   padding: 1.6rem;
   margin-bottom: 2.2rem;
+  text-align: left;
+  background-color: #c8d8a0;
 }
 
 .articleText h2 {
+  font-size: 1.4rem;
   font-weight: 700;
-  font-size: 1.5rem;
   color: #c7470e;
 }
 
@@ -153,12 +152,7 @@ article img {
   }
 
   article {
-    font-size: .9rem;
     position: relative;
-    margin-bottom: 2rem;
-  }
-
-  article:last-child {
     margin-bottom: 3rem;
   }
 
@@ -170,21 +164,22 @@ article img {
   .articleText {
     position: absolute;
     top: 50%;
-    transform: translateY(-50%);
     right: 0;
     width: 70%;
-    padding: 1.1rem 1rem 1.2rem 1.3rem;
+    padding: 1.2rem 1rem 1.2rem 1.4rem;
+    font-size: .95rem;
+    transform: translateY(-50%);
   }
 
   #house img {
     position: relative;
-    width: 35%;
     left: 65%;
+    width: 35%;
   }
   
   #house .articleText {
-    width: 65%;
     left: 0;
+    width: 65%;
   }
 }
 
@@ -193,14 +188,22 @@ article img {
     max-width: 740px; 
   }
 
+  article {
+    margin-bottom: 2rem;
+  }
+
+  article:last-child {
+    margin-bottom: 3rem;
+  }
+
   article img {
     width: 25%;
   }
 
   .articleText {
-    font-size: 1rem;
-    padding: 1.4rem 2rem 1.6rem;
     width: 75%;
+    padding: 1.4rem 2rem 1.6rem;
+    font-size: 1rem;
   }
 
   #house img {
@@ -217,16 +220,16 @@ article img {
 /* FOOTER */
 
 footer {
-  background-color: #ee5511;
-  color: #f5c0a9;
   padding: 1.7rem;
-  text-align: center;
   clear: both;
+  color: #f5c0a9;
+  text-align: center;
+  background-color: #ee5511;
 }
 
 footer a {
-  text-decoration: none;
   color: #fff;
+  text-decoration: none;
 }
 
 footer a:hover {
